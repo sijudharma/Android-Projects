@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/nature"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/nature_button"
+                android:layout_gravity="center_vertical"
+                android:text="Nature and Parks"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:gravity="center|bottom"
+                android:paddingTop="13dp"
+                android:paddingBottom="10dp"
+                />
+
+            <Button
+                android:id="@+id/education"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/education_button"
+                android:text="Education"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:gravity="center|bottom"
+                android:paddingTop="13dp"
+                android:paddingBottom="10dp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/historicalPlaces"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/hist_places"
+                android:text="Historical Places"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:gravity="center|bottom"
+                android:paddingTop="13dp"
+                android:paddingBottom="10dp"
+                />
+
+            <Button
+                android:id="@+id/funEntertainment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/fun_entertainment"
+                android:drawablePadding="2dp"
+                android:text="Fun and Entertainments"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:gravity="center|bottom"
+                android:paddingTop="13dp"
+                android:paddingBottom="10dp"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/foodDrink"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/food_drink"
+                android:text="Food and Drink"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:gravity="center|bottom"
+                android:paddingTop="13dp"
+                android:paddingBottom="10dp"
+                />
+
+            <Button
+                android:id="@+id/shopping"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shopping_button"
+                android:text="Shopping"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:gravity="center|bottom"
+                android:paddingTop="13dp"
+                android:paddingBottom="10dp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/museums"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/park_museum"
+                    android:text="Museums"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:gravity="center|bottom"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/health"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/health"
+                    android:drawablePadding="2dp"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="13dp"
+                    android:text="Health"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </RelativeLayout>
+</TableLayout>
+    </LinearLayout>

@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">OntarioLondon</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_nature_parks">NatureParks</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string name="edu">Education</string>
+    <string name="nature">Nature and Parks</string>
+    <string name="foodanddrink">Food and Drink</string>
+    <string name="museums">Museums</string>
+    <string name="historical">Historical Places</string>
+    <string name="fande">Fun and Entertainment</string>
+
+    <string name="sampleText">text here..</string>
+    <string name="ph">Phone: </string>
+    <string name="phoneNo">123 345 6789</string>
+
+    <string name="springbank">Springbank Park</string>
+    <string name="victoria">Victoria Park</string>
+    <string name="fanshawecons">Fanshawe Conservation Area</string>
+    <string name="komoka">Komoka Provincial Park</string>
+    <string name="gibbons">Gibbons Park</string>
+    <string name="siftonbog">Sifton Bog</string>
+    <string name="westminster">Westminster Ponds/Pond Mills</string>
+
+    <string name="westernuniv">Western University</string>
+    <string name="fanshawecoll">Fanshawe College</string>
+    <string name="trioscoll">Trios College</string>
+    <string name="westerveltcoll">Westervelt College</string>
+    <string name="kingscoll">Kings University College</string>
+    <string name="borealcoll">Boreal College</string>
+
+    <string name="victoriaHospital">Victoria Hospital and Children\'s Hospital</string>
+    <string name="universityHospital">University Hospital</string>
+    <string name="stjosephHospital">St Joseph Hospital</string>
+
+    <string name="eldonHouse">Eldon House</string>
+    <string name="bantingHouse">Banting House</string>
+    <string name="pioneerVillage">Fanshawe Pioneer Village"</string>
+
+    <string name="westernFair">Western Fair Raceway</string>
+    <string name="casinos">Gateway Casinos</string>
+    <string name="batl">The Backyard Axe Throwing League"</string>
+
+    <string name="whiteOaks">White Oaks Mall</string>
+    <string name="masonville">CF Masonville Mall</string>
+    <string name="farmersMarket">Western Fair Market</string>
+    <string name="covent">The Covent Market Place</string>
+
+    <string name="churchkey">The Church Key Bistro-Pub</string>
+    <string name="daves">Dave\'s Pub and Grill</string>
+    <string name="scots">The Scot\'s Corner</string>
+    <string name="bunglow">The Bunglow Neighbourhood Hub</string>
+
+    <string name="londonmuseum">Museum London</string>
+    <string name="childrensmuseum">London\'s Children Museum</string>
+    <string name="archeology">Museum of Ontario Archeology</string>
+    <string name="jetaircraft">Jet Aircraft Museum</string>
+    <string name="canadianregiment">Royal Canadian Regiment Museum</string>
+
+    <string name="tv1Desc">Text here…</string>
+    <string name="eduIntr">Text here..</string>
+    <string name="natureIntr">Text here..</string>
+    <string name="healthIntr">Text here..</string>
+    <string name="shoppingIntr">Text here..</string>
+    <string name="museumIntr">Text here..</string>
+    <string name="historyIntr">Text here..</string>
+    <string name="funIntr">Text here..</string>
+    <string name="eduIntr1"><u>Colleges/Universities</u></string>
+
+    <string name="springbankImage">Image of Springbank park</string>
+    <string name="victoriaImage">Image of Victoria Park</string>
+    <string name="fanshaweConsImage">Image of Fanshawe Conservative Area</string>
+    <string name="komokaImage">Image of Komoka provincial park</string>
+    <string name="gibbonsImage">Image of Gibbon\'s park</string>
+    <string name="siftonbogImage">Image of Sifton bog</string>
+    <string name="westminsterImage">Image of Westminster ponds</string>
+
+    <string name="westernImage">Image of Western University</string>
+    <string name="fanshaweImage">Image of Fanshawe College</string>
+    <string name="triosImage">Image of Trios College</string>
+    <string name="westerveltImage">Image of Westervelt College</string>
+    <string name="kingsImage">Image of Kings University College</string>
+    <string name="borealImage">Image of Boreal College</string>
+
+    <string name="whiteOaksImage">Image of White Oaks Mall</string>
+    <string name="masonvilleImage">Image of CF Masonville Mall</string>
+    <string name="farmersImage">Image of London Farmer\'s Market</string>
+    <string name="coventImage">Image of Covent Market</string>
+
+    <string name="victoriaHospitalImage">Image of Victoria Hospital</string>
+    <string name="universityHospitalImage">Image of University Hospital</string>
+    <string name="stjosephImage">Image of St.Joseph\'s Hospital</string>
+
+    <string name="eldonHouseImage">Image of Victoria Hospital</string>
+    <string name="bantingHouseImage">Image of University Hospital</string>
+    <string name="pioneerVillageImage">Image of St.Joseph\'s Hospital</string>
+
+    <string name="westernFairImage">Image of Victoria Hospital</string>
+    <string name="casionosImage">Image of University Hospital</string>
+    <string name="batlImage">Image of St.Joseph\'s Hospital</string>
+
+    <string name="londonMuseumImage">Image of Victoria Hospital</string>
+    <string name="childrensMuseumImage">Image of University Hospital</string>
+    <string name="archeologyMuseumImage">Image of St.Joseph\'s Hospital</string>
+    <string name="jetAircraftMuseumImage">Image of University Hospital</string>
+    <string name="canadianRegimentMuseumImage">Image of St.Joseph\'s Hospital</string>
+
+    <string name="westernPhoneNumber">(519) 661–2111</string>
+    <string name="fanshawePhoneNumber">(519) 452–4277</string>
+    <string name="triosPhoneNumber">(519) 455–0551</string>
+    <string name="westerveltPhoneNumber">(519) 668–2000</string>
+    <string name="kingsPhoneNumber">(519) 433–3491</string>
+    <string name="borealPhoneNumber">(519) 451–5194</string>
+
+    <string name="springbankPhoneNumber">(519) 661–5575</string>
+    <string name="gibbonsPhoneNumber">(519) 661–4570</string>
+    <string name="siftonbogPhoneNumber">(519) 661–4500</string>
+    <string name="fanshaweConsPhoneNumber">(519) 951–6181</string>
+    <string name="victoriaPhoneNumber">(519) 661–4529</string>
+    <string name="westminsterPhoneNumber">(519) 451–2800</string>
+    <string name="komokaPhoneNumber">(519) 874–4691</string>
+
+    <string name="whiteOaksPhoneNumber">(519) 681–0434</string>
+    <string name="masonvillePhoneNumber">(519) 667–4884</string>
+    <string name="farmersMarketPhoneNumber">519–438–5942</string>
+    <string name="coventPhoneNumber">519–439–3921</string>
+
+    <string name="victoriaHospitalPhoneNumber">(519) 685–8500</string>
+    <string name="universityHospitalPhoneNumber">(519) 685–8500</string>
+    <string name="stjosephHospitalPhoneNumber">(519) 646–6100</string>
+
+    <string name="londonMuseumPhoneNumber">(519) 661–0333</string>
+    <string name="childrensMuseumPhoneNumber">(519) 434–5726</string>
+    <string name="archeologyMuseumPhoneNumber">(519) 473–1360</string>
+    <string name="jetAircraftMuseumPhoneNumber">(519) 453–7000</string>
+    <string name="canadianRegimentMuseumPhoneNumber">(519) 660–5275 ext. 5102</string>
+
+    <string name="eldonHousePhoneNumber">(519) 661–5169</string>
+    <string name="bantingHousePhoneNumber">(519) 673–1752</string>
+    <string name="pioneerVillagePhoneNumber">(519) 457–1296</string>
+
+    <string name="westernFairPhoneNumber">(519) 438–7203</string>
+    <string name="casionosPhoneNumber">(519) 672–5394</string>
+    <string name="batlPhoneNumber">(226) 213–5586</string>
+
+</resources>
