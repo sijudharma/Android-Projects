@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+
+            <ImageView
+                android:id="@+id/imageViewVehicle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/VehicleDetail"
+                android:src="@drawable/car" />
+
+            <TextView
+                android:id="@+id/tvYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewVehicle"
+                android:text="2022"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="25dp"/>
+
+
+            <TextView
+                android:id="@+id/tvMake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvYear"
+                android:text="BMW"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_below="@id/imageViewVehicle"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"/>
+
+
+            <TextView
+                android:id="@+id/tvModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvMake"
+                android:text="3 Series"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/imageViewVehicle"
+                android:layout_marginLeft="5dp"/>
+
+
+            <TextView
+                android:id="@+id/tvTrim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvModel"
+                android:text="328i"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/imageViewVehicle"
+                android:layout_marginLeft="5dp"/>
+
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvYear"
+                android:text="$ 17,234"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="25dp"/>
+
+
+            <TextView
+                android:id="@+id/tvDivider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvPrice"
+                android:layout_below="@+id/tvYear"
+                android:text="  |  "
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+
+
+            <TextView
+                android:id="@+id/tvMileage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvDivider"
+                android:layout_below="@+id/tvYear"
+                android:text="39.1k mi"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_below="@+id/tvMileage"
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                android:layout_margin="25dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/tvVehicleInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view2"
+                android:text="Vehicle Info"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="25dp"/>
+
+            <TableLayout
+                android:id="@+id/tblLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tvVehicleInfo"
+                android:layout_marginTop="25dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp" >
+
+            <TableRow android:background="#ffffff" android:padding="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:text="Location" />
+                <TextView
+                    android:id="@+id/tvLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="New York, NY" />
+
+            </TableRow>
+                <TableRow android:background="#ffffff" android:padding="3dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:text="Exterior Color" />
+                    <TextView
+                        android:id="@+id/tvEColor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="Black" />
+
+                </TableRow>
+                <TableRow android:background="#ffffff" android:padding="3dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:text="Interior Color" />
+                    <TextView
+                        android:id="@+id/tvIColor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="Black" />
+
+                </TableRow>
+                <TableRow android:background="#ffffff" android:padding="3dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:text="Drive Type" />
+                    <TextView
+                        android:id="@+id/tvDType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="FWD" />
+
+                </TableRow>
+                <TableRow android:background="#ffffff" android:padding="3dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:text="Transmission" />
+                    <TextView
+                        android:id="@+id/tvTransmission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="Automatic" />
+
+                </TableRow>
+                <TableRow android:background="#ffffff" android:padding="3dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:text="Body type" />
+                    <TextView
+                        android:id="@+id/tvBType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="Sedan" />
+
+                </TableRow>
+                <TableRow android:background="#ffffff" android:padding="3dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:text="Engine" />
+                    <TextView
+                        android:id="@+id/tvEngine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="4 Cyl 2.4l" />
+
+                </TableRow>
+                <TableRow android:background="#ffffff" android:padding="3dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:text="Fuel" />
+                    <TextView
+                        android:id="@+id/tvFuel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="Gasoline" />
+
+                </TableRow>
+            </TableLayout>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_below="@+id/tblLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                android:layout_margin="25dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Button
+                android:id="@+id/btnCallDealer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="25dp"
+                android:layout_below="@+id/view1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:minHeight="45dp"
+                android:textColor="#ffffff"
+                android:background="@color/blue"
+                android:text="@string/call_dealer" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
